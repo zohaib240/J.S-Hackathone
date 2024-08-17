@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal bloging App</title>
+  <link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <!------- navbar start------ -->
+
+  <div class="navbar  bg-blue-700">
+    <div class="flex-1 justify-between">
+      <a class="btn btn-ghost text-xl text-base-100  ">Personal bloging App</a>
+      <a class="btn btn-ghost text-xl text-base-100  " href="signup.html">Signup</a>
+
+    </div>
+  </div> 
+
+  <!------- navbar end------ -->
+
+  <h1 id="h1" class="mt-[6rem]">LOGIN</h1>
+    <div class="container w-96 ">
+    <input type="checkbox" id="check">
+    <div class="login form ">
+      <form action="#" id="form">
+        <label class="labl-font" for="Email">Email</label>
+        <input type="text" id="Email" placeholder="Enter your email">
+        <label class="labl-font"  for="Password">Password</label>
+        <input type="password" id="Password" placeholder="Enter your password">
+       <div class="btn-center"><input type="submit" class="button" value="Login"></div>
+      </form>
+      <div class="signup">
+      <label for="check"><a href="signup.html">NOT A USER?REGISTER FIRST</a></label> 
+      </div>
+    </div> 
+    </div>
+
+
+
+    <script type="module" src="login.js"></script>
+  </body>
+  </html> 
+

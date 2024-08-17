@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  <!-- Daisy ui  Cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <!-- Tailwind Cdn -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- bootstrape  Cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4f2610e6e7.js" crossorigin="anonymous"></script>
+    
+    <title>home</title>
+</head>
+<body>
+    <!------- navbar start------ -->
+
+  <div class="navbar  bg-blue-700 ">
+    <div class="flex-1 justify-between">
+      <a class="btn btn-ghost text-xl text-white text-base-100  ">Personal bloging app</a>
+      <a class="btn btn-ghost text-xl text-base-100  text-white " href="signup.html">Logout</a>
+    </div>
+  </div> 
+
+  <!------- navbar end------ -->
+
+  <div class="mt-6 ml-6 mr-6 d-flex   bg-white justify-center ">
+
+    <!-- add blog -->
+
+    <form id="form"> 
+      <div class="form-group w-96">
+        <input type="text" class="form-control" id="title" placeholder="Enter here">
+     </div>
+      <div class="form-group mt-6">
+        <input type="text" class="form-control " style="height: 8rem;"  id="discription" rows="3" placeholder="Text here discription">
+      </div>
+    
+      <button type="submit" class="btn btn-primary mt-6">Publish blog</button>
+    </form>
+      </div>
+
+
+    <!-- Render blog -->
+
+    <div id="div" class="mt-6 d-flex justify-center flex-wrap gap-3" ></div>
+  
+<script type="module" src="dash.js"></script>
+</body>
+</html>
