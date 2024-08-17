@@ -19,7 +19,7 @@ form.addEventListener('submit',(event)=>{
     // Signed up 
     const user = userCredential.user;
     console.log(user)
-    window.location='login.html'
+    window.location='index.html'
     
   })
   .catch((error) => {
