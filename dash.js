@@ -49,6 +49,9 @@ querySnapshot.forEach((doc) => {
 console.log(arr);
 render()
 
+
+// delete edit option -----
+
 const del=document.querySelectorAll('#delete')
 const edit=document.querySelectorAll('#edit')
 
@@ -86,6 +89,9 @@ function render() {
   </div>
   ` 
 })
+
+// delete edit option -----
+
 const del=document.querySelectorAll('#delete')
 const edit=document.querySelectorAll('#edit')
 
