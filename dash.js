@@ -45,11 +45,11 @@ function render() {
     </div>
   </div>
   ` 
-  })
+ 
 // delete edit option -----
 
-const del_manjan=document.querySelectorAll('#delete')
-const edit=document.querySelectorAll('#edit')
+const del_manjan=document.querySelectorAll('.delete')
+const edit=document.querySelectorAll('.edit')
 
 
 del_manjan.forEach((btn, index) => {
@@ -72,13 +72,11 @@ edit.forEach((btn,index)=>{
   await updateDoc(washingtonRef, {
     Tilte:update 
 });
-if(update && update.trim() !== ''){
     arr[index].Title = update
-}
 render()
+  })  
   })
-    
-  })
+})
 }
 render()
 
